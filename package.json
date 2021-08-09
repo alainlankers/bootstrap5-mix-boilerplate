@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-5-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mindexain.js",
+  "scripts": {
+    "build": "webpack --config webpack.mix.js --mode production",
+    "watch": "webpack --config webpack.mix.js --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.0.0-beta3",
+    "laravel-mix": "^6.0.27",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0"
+  }
+}
