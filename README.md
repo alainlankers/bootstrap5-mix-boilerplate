@@ -14,7 +14,7 @@ Add following code to webpack.mix.js
 
 let mix = require('laravel-mix');
 
-mix.js('src/app.js', 'dist/').sass('src/app.scss', 'dist/');
+mix.js('src/app.js', 'dist/js').sass('src/app.scss', 'dist/css');
 ```
 Create /src folder and add app.js and app.scss  
 Add following code to app.js
